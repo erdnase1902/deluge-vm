@@ -68,7 +68,7 @@ config.vm.network "private_network", type: "dhcp"
   # accessing "localhost:8080" will access port 80 on the guest machine.
   # NOTE: This will enable public access to the opened port
 config.vm.network "forwarded_port", guest: 3389, host: 3389, auto_correct: true
-config.vm.network "forwarded_port", guest: 11111, host: 11111", auto_correct: true
-config.vm.network "forwarded_port", guest: 11112, host: 11112", auto_correct: true
+config.vm.network "forwarded_port", guest: 11111, host: 11111, auto_correct: true
+config.vm.network "forwarded_port", guest: 11112, host: 11112, auto_correct: true
 
 end
